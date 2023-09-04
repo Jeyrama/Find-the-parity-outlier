@@ -27,3 +27,13 @@ function odd(num) {
 }
 
 // or
+
+function findOutlier(integers) {
+  let odds = [];
+  let evens = [];
+  for(let i of integers) i % 2 === 0
+    ? evens.push(integer)
+    : odds.push(integer);
+
+  return odds.length === 1 ? odds[0] : evens[0];
+}
