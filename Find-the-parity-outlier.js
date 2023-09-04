@@ -25,3 +25,5 @@ function even(num) {
 function odd(num) {
   return !even(num)
 }
+
+// or
